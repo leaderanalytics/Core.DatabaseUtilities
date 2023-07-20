@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <IncludeSymbols>true</IncludeSymbols>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	  <Authors>Leader Analytics</Authors>
+	  <Company>Leader Analytics</Company>
+	  <Product>LeaderAnalytics.Core.DatabaseUtilities</Product>
+	  <Description>Database related utilities</Description>
+	  <Copyright>2023 Leader Analytics</Copyright>
+	  <PackageProjectUrl></PackageProjectUrl>
+	  <PackageIcon>VyntixLogo.png</PackageIcon>
+	  <RepositoryUrl>https://leaderanalytics.visualstudio.com/Core.DatabaseUtilities/_git/Core.DatabaseUtilities</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageTags>Database Utilities</PackageTags>
+	  <PackageReleaseNotes>See Repository</PackageReleaseNotes>
+	  <PackageId>LeaderAnalytics.Core.DatabaseUtilities</PackageId>
+	  <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+  </PropertyGroup>
+	<PropertyGroup>
+		<RootNamespace>LeaderAnalytics.Core.DatabaseUtilities</RootNamespace>
+		<AssemblyName>LeaderAnalytics.Core.DatabaseUtilities</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\VyntixLogo.png" Pack="true" PackagePath="\" />
+		<None Include="..\LICENSE.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+		<PackageReference Include="AdaptiveClient.EntityFrameworkCore" Version="4.0.4" />
+	</ItemGroup>
+</Project>

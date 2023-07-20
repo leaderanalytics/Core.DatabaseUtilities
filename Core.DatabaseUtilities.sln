@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.DatabaseUtilities", "Core.DatabaseUtilities\Core.DatabaseUtilities.csproj", "{F99DFF5C-E19D-4715-9CAA-CC0E3B0ECFB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A92E78EE-BA80-43BE-A026-887DEA4B9622}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+		version.json = version.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F99DFF5C-E19D-4715-9CAA-CC0E3B0ECFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99DFF5C-E19D-4715-9CAA-CC0E3B0ECFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99DFF5C-E19D-4715-9CAA-CC0E3B0ECFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99DFF5C-E19D-4715-9CAA-CC0E3B0ECFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1860E59B-9661-4739-A474-8E953D173992}
+	EndGlobalSection
+EndGlobal
