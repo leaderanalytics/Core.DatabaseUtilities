@@ -12,7 +12,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  project: 'Core.DatabaseUtilities.csproj'
+  project: 'Core.DatabaseUtilities/Core.DatabaseUtilities.csproj'
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
