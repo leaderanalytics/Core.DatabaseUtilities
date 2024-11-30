@@ -1,6 +1,6 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFrameworks>net9;net8</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -30,10 +30,12 @@
 		<None Include="..\LICENSE.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.5" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
-		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
-		<PackageReference Include="AdaptiveClient.EntityFrameworkCore" Version="4.0.4" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Update="Nerdbank.GitVersioning" Version="3.6.146" />
 	</ItemGroup>
 </Project>
